@@ -1,0 +1,39 @@
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #161853;
+  margin-bottom: 20px;
+}
+
+.logo {
+  margin-left: 10px;
+}
+.logo a h2 {
+  font-size: 25px;
+  color: #FAEDF0;
+}
+.navbar {
+  margin-right: 10px;
+}
+.navbar ul li {
+  display: inline-block;
+}
+.navbar ul li a {
+  color: #FAEDF0;
+  text-transform: uppercase;
+  margin: 5px;
+}
+.navbar ul li .link {
+  border: 2px solid #EC255A;
+  padding: 5px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.navbar ul li .link:hover {
+  background-color: #EC255A;
+}
